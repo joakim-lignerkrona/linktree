@@ -1,6 +1,18 @@
-body{
+:root {
+    --primary-color: #5C415D;
+    --secondary-color: #D6D1B1;
+    --background-color: #A690A4;
+}
+
+body {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    background-color: var(--background-color);
+}
+
+/* Use the variables in other CSS rules */
+h1 {
+    color: var(--secondary-color);
 }
